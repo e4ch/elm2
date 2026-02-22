@@ -808,6 +808,155 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:Crystal_Small"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Y"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Crystal_Small"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Two pin crystal, small symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "quartz ceramic resonator oscillator"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Crystal*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Crystal_Small_0_1"
+				(polyline
+					(pts
+						(xy -1.27 -0.762) (xy -1.27 0.762)
+					)
+					(stroke
+						(width 0.381)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -0.762 -1.524)
+					(end 0.762 1.524)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -0.762) (xy 1.27 0.762)
+					)
+					(stroke
+						(width 0.381)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Crystal_Small_1_1"
+				(pin passive line
+					(at -2.54 0 0)
+					(length 1.27)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 0 180)
+					(length 1.27)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:D_Zener"
 			(pin_numbers
 				(hide yes)
@@ -1408,6 +1557,197 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:Varistor"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "RV"
+				(at 3.175 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Varistor"
+				(at -3.175 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Voltage dependent resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Name" "kicad_builtin_varistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Device" "SUBCKT"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Pins" "1=A 2=B"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Params" "threshold=1k"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Library" "${KICAD9_SYMBOL_DIR}/Simulation_SPICE.sp"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "VDR resistance"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "RV_* Varistor*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Varistor_0_0"
+				(text "U"
+					(at -1.778 -2.032 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(symbol "Varistor_0_1"
+				(polyline
+					(pts
+						(xy -1.905 2.54) (xy -1.905 1.27) (xy 1.905 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Varistor_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Diode:1N4148"
 			(pin_numbers
 				(hide yes)
@@ -1869,24 +2209,22 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" ""
-				(at -2.54 6.35 0)
+			(property "Reference" "IC10"
+				(at -11.938 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 					(justify left)
-					(hide yes)
 				)
 			)
-			(property "Value" ""
-				(at 1.27 -6.35 0)
+			(property "Value" "AMS S2570-2"
+				(at -2.54 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 					(justify left)
-					(hide yes)
 				)
 			)
 			(property "Footprint" ""
@@ -1907,8 +2245,8 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "S2570-2"
-				(at -5.08 0 0)
+			(property "Description" ""
+				(at 5.842 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2378,24 +2716,22 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" ""
-				(at -2.54 6.35 0)
+			(property "Reference" "IC51"
+				(at -7.874 1.016 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 					(justify left)
-					(hide yes)
 				)
 			)
-			(property "Value" ""
-				(at 1.27 -6.35 0)
+			(property "Value" "ITT SAA1094-CH"
+				(at -7.874 -1.016 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 					(justify left)
-					(hide yes)
 				)
 			)
 			(property "Footprint" ""
@@ -2416,7 +2752,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "SAA1094-CH"
+			(property "Description" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -7159,7 +7495,7 @@
 	)
 	(wire
 		(pts
-			(xy 210.82 127) (xy 106.68 127)
+			(xy 210.82 123.19) (xy 121.92 123.19)
 		)
 		(stroke
 			(width 0)
@@ -7389,7 +7725,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 127) (xy 106.68 35.56)
+			(xy 121.92 149.86) (xy 121.92 123.19)
 		)
 		(stroke
 			(width 0)
@@ -7829,16 +8165,6 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 153.67) (xy 101.6 21.59)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6dde175c-03a8-4f26-8251-1104489400d5")
-	)
-	(wire
-		(pts
 			(xy 210.82 95.25) (xy 218.44 95.25)
 		)
 		(stroke
@@ -8029,23 +8355,13 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 161.29) (xy 130.81 153.67)
+			(xy 130.81 161.29) (xy 130.81 149.86)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "7fd73423-2835-4b09-83aa-cebe20124d15")
-	)
-	(wire
-		(pts
-			(xy 130.81 153.67) (xy 101.6 153.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "813705fe-f7fc-4e2f-96a5-01b1bfc4d371")
 	)
 	(wire
 		(pts
@@ -8159,6 +8475,16 @@
 	)
 	(wire
 		(pts
+			(xy 129.54 149.86) (xy 130.81 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "970e2bcb-b175-47be-acbd-74f283ab8d0f")
+	)
+	(wire
+		(pts
 			(xy 254 111.76) (xy 254 119.38)
 		)
 		(stroke
@@ -8246,16 +8572,6 @@
 			(type default)
 		)
 		(uuid "9e489b9b-2b74-4eac-85cf-15a288d7da6c")
-	)
-	(wire
-		(pts
-			(xy 138.43 21.59) (xy 138.43 35.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9f6a8e4a-b595-4521-b3df-3cf90935f15e")
 	)
 	(wire
 		(pts
@@ -8869,7 +9185,7 @@
 	)
 	(wire
 		(pts
-			(xy 210.82 116.84) (xy 210.82 127)
+			(xy 210.82 123.19) (xy 210.82 116.84)
 		)
 		(stroke
 			(width 0)
@@ -9029,7 +9345,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 35.56) (xy 133.35 35.56)
+			(xy 121.92 149.86) (xy 124.46 149.86)
 		)
 		(stroke
 			(width 0)
@@ -9066,16 +9382,6 @@
 			(type default)
 		)
 		(uuid "fc6017b5-7dc6-4dd0-a4ba-5b3f66c9cde2")
-	)
-	(wire
-		(pts
-			(xy 101.6 21.59) (xy 138.43 21.59)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fdfa40b6-da6a-44c6-9e7e-c86b435d3a30")
 	)
 	(wire
 		(pts
@@ -9161,74 +9467,6 @@
 			(project "elm2"
 				(path "/b2a1ae43-c619-4a49-bbec-49577e26f023"
 					(reference "XD28")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 48.26 44.45 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0cfa11a0-b046-405d-abc4-5787ae269071")
-		(property "Reference" "R7"
-			(at 48.26 38.1 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "R"
-			(at 48.26 40.64 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 48.26 42.672 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 48.26 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 48.26 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b836c49e-0d45-4055-8b0d-de3ab3382791")
-		)
-		(pin "2"
-			(uuid "6acc61d5-c3d0-489b-9a8a-b767059ecd75")
-		)
-		(instances
-			(project "elm2"
-				(path "/b2a1ae43-c619-4a49-bbec-49577e26f023"
-					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -9542,142 +9780,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 62.23 53.34 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "40779e77-9e8d-4373-ad38-fd71cc52e2cc")
-		(property "Reference" "R6"
-			(at 62.23 46.99 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "R"
-			(at 62.23 49.53 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 62.23 51.562 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 62.23 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 62.23 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c61c1c4a-b80e-49f1-8fe5-50be78e5881f")
-		)
-		(pin "2"
-			(uuid "77af2b02-994a-4182-881f-41deac73d9fa")
-		)
-		(instances
-			(project "elm2"
-				(path "/b2a1ae43-c619-4a49-bbec-49577e26f023"
-					(reference "R6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 35.56 53.34 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "411d32ba-50f5-4665-9bfe-f62d9054b1b9")
-		(property "Reference" "R10"
-			(at 35.56 46.99 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "R"
-			(at 35.56 49.53 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 35.56 51.562 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 35.56 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 35.56 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e249df43-eff7-48d1-b4e0-611b49530ee8")
-		)
-		(pin "2"
-			(uuid "4bf0fd48-04a3-4cfa-956b-669ea1ab6704")
-		)
-		(instances
-			(project "elm2"
-				(path "/b2a1ae43-c619-4a49-bbec-49577e26f023"
-					(reference "R10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Project_Library:Jumper_2_Small_Bridged")
 		(at 146.05 35.56 0)
 		(unit 1)
@@ -9757,23 +9859,21 @@
 		(fields_autoplaced yes)
 		(uuid "5327d8d7-6588-484e-b69b-14370b72a65f")
 		(property "Reference" "IC51"
-			(at 238.76 52.07 0)
+			(at 233.426 57.404 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(property "Value" "ITT SAA1094-CH"
-			(at 242.57 64.77 0)
+			(at 233.426 59.436 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(property "Footprint" ""
@@ -9794,7 +9894,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "SAA1094-CH"
+		(property "Description" ""
 			(at 241.3 58.42 0)
 			(effects
 				(font
@@ -10027,23 +10127,21 @@
 		(fields_autoplaced yes)
 		(uuid "5cf4ee5c-6638-4f1a-b05e-2df96167bedb")
 		(property "Reference" "IC10"
-			(at 200.66 50.8 0)
+			(at 191.262 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(property "Value" "AMS S2570-2"
-			(at 204.47 63.5 0)
+			(at 200.66 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(property "Footprint" ""
@@ -10064,8 +10162,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "S2570-2"
-			(at 198.12 57.15 0)
+		(property "Description" ""
+			(at 209.042 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10392,74 +10490,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 35.56 44.45 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6458b397-c737-4dcd-a43d-de217e55b353")
-		(property "Reference" "R9"
-			(at 35.56 38.1 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "R"
-			(at 35.56 40.64 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 35.56 42.672 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 35.56 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 35.56 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "dc7e5188-201d-41e8-9d63-17265a2fba9f")
-		)
-		(pin "2"
-			(uuid "51a70f2c-95bb-42a9-8297-4f59d1a51ef2")
-		)
-		(instances
-			(project "elm2"
-				(path "/b2a1ae43-c619-4a49-bbec-49577e26f023"
-					(reference "R9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Project_Library:Jumper_2_Small_Bridged")
 		(at 193.04 36.83 0)
 		(unit 1)
@@ -10687,74 +10717,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 91.44 53.34 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "75084beb-6a0d-4403-b216-57beb006a291")
-		(property "Reference" "R2"
-			(at 91.44 46.99 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "R"
-			(at 91.44 49.53 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 91.44 51.562 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 91.44 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 91.44 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "979db0a7-e0fe-4fc5-bfb0-a7d3f47f7fde")
-		)
-		(pin "2"
-			(uuid "c2c63ffd-f28c-45f9-99a1-4bf37279c1f0")
-		)
-		(instances
-			(project "elm2"
-				(path "/b2a1ae43-c619-4a49-bbec-49577e26f023"
-					(reference "R2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Project_Library:Jumper_2_Small_Bridged")
 		(at 207.01 148.59 0)
 		(unit 1)
@@ -10918,74 +10880,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 62.23 44.45 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7b9d4149-2400-4944-8edb-ed22b54d3d11")
-		(property "Reference" "R5"
-			(at 62.23 38.1 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "R"
-			(at 62.23 40.64 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 62.23 42.672 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 62.23 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 62.23 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "08bcc630-d830-4fc0-a6df-27bc911a2f80")
-		)
-		(pin "2"
-			(uuid "bd363214-9d43-4f72-932e-d88cc81b180e")
-		)
-		(instances
-			(project "elm2"
-				(path "/b2a1ae43-c619-4a49-bbec-49577e26f023"
-					(reference "R5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:Buzzer")
 		(at 238.76 22.86 0)
 		(unit 1)
@@ -10995,7 +10889,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7d4b2a3c-fd17-4212-aa48-abff94336c6c")
-		(property "Reference" "BZ1"
+		(property "Reference" "PR1"
 			(at 242.57 21.5899 0)
 			(effects
 				(font
@@ -11049,75 +10943,7 @@
 		(instances
 			(project ""
 				(path "/b2a1ae43-c619-4a49-bbec-49577e26f023"
-					(reference "BZ1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 91.44 44.45 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7d7397fa-1558-4f91-9e7d-3d9739595b16")
-		(property "Reference" "R1"
-			(at 91.44 38.1 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "450Ω"
-			(at 91.44 40.64 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 91.44 42.672 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 91.44 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 91.44 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4af8b9ef-ec1e-4097-895c-a9db69e112f6")
-		)
-		(pin "2"
-			(uuid "3b5122bf-7804-4114-ad61-0b37d0a813a6")
-		)
-		(instances
-			(project ""
-				(path "/b2a1ae43-c619-4a49-bbec-49577e26f023"
-					(reference "R1")
+					(reference "PR1")
 					(unit 1)
 				)
 			)
@@ -11466,6 +11292,74 @@
 			(project "elm2"
 				(path "/b2a1ae43-c619-4a49-bbec-49577e26f023"
 					(reference "P52")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Crystal_Small")
+		(at 59.69 52.07 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "97aa9efb-a218-4da7-9b35-ab56c3cfc29f")
+		(property "Reference" "G51"
+			(at 59.69 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Crystal_Small"
+			(at 59.69 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 59.69 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 59.69 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Two pin crystal, small symbol"
+			(at 59.69 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "3efa1feb-8d69-46fc-a0a3-2af038f7af40")
+		)
+		(pin "1"
+			(uuid "45b9636d-6e76-45f5-bf66-55b9dac06d38")
+		)
+		(instances
+			(project "elm2"
+				(path "/b2a1ae43-c619-4a49-bbec-49577e26f023"
+					(reference "G51")
 					(unit 1)
 				)
 			)
@@ -12167,33 +12061,35 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 76.2 53.34 270)
+		(lib_id "Device:Varistor")
+		(at 43.18 166.37 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "bc8c5ede-8d64-4ee9-a76c-e244d2014ef3")
-		(property "Reference" "R4"
-			(at 76.2 46.99 90)
+		(uuid "c63854ec-05c8-4d18-be4e-96c7f922ee80")
+		(property "Reference" "R1"
+			(at 45.72 165.2932 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "R"
-			(at 76.2 49.53 90)
+		(property "Value" "Varistor"
+			(at 45.72 167.8332 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 76.2 51.562 90)
+			(at 41.402 166.37 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12202,7 +12098,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 76.2 53.34 0)
+			(at 43.18 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12210,8 +12106,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
-			(at 76.2 53.34 0)
+		(property "Description" "Voltage dependent resistor"
+			(at 43.18 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12219,16 +12115,61 @@
 				(hide yes)
 			)
 		)
-		(pin "1"
-			(uuid "6de24a50-975b-4d84-9996-563c816782a5")
+		(property "Sim.Name" "kicad_builtin_varistor"
+			(at 43.18 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "SUBCKT"
+			(at 43.18 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=A 2=B"
+			(at 43.18 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Params" "threshold=1k"
+			(at 43.18 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Library" "${KICAD9_SYMBOL_DIR}/Simulation_SPICE.sp"
+			(at 43.18 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
 		)
 		(pin "2"
-			(uuid "0e003d5e-2243-4b27-a660-4a76e306080b")
+			(uuid "ba7328cf-a670-489d-980e-aeb2b80145aa")
+		)
+		(pin "1"
+			(uuid "cc911896-5b50-4135-af0e-c7aebbbfd17d")
 		)
 		(instances
-			(project "elm2"
+			(project ""
 				(path "/b2a1ae43-c619-4a49-bbec-49577e26f023"
-					(reference "R4")
+					(reference "R1")
 					(unit 1)
 				)
 			)
@@ -12442,7 +12383,7 @@
 	)
 	(symbol
 		(lib_id "Project_Library:Jumper_2_Small_Bridged")
-		(at 135.89 35.56 0)
+		(at 127 149.86 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12451,7 +12392,7 @@
 		(fields_autoplaced yes)
 		(uuid "e17e76ef-51de-4df5-996a-3b3f1204188b")
 		(property "Reference" "XD31"
-			(at 135.89 33.02 0)
+			(at 127 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12459,7 +12400,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 135.89 37.846 0)
+			(at 127 152.146 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12468,7 +12409,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 135.89 35.56 0)
+			(at 127 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12477,7 +12418,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 135.89 35.56 0)
+			(at 127 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12486,7 +12427,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 135.89 35.56 0)
+			(at 127 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12666,6 +12607,74 @@
 			(project ""
 				(path "/b2a1ae43-c619-4a49-bbec-49577e26f023"
 					(reference "SW1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Crystal_Small")
+		(at 59.69 40.64 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f27969c1-cced-4d11-b7d8-d1ccd3baf2da")
+		(property "Reference" "G10"
+			(at 59.69 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Crystal_Small"
+			(at 59.69 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 59.69 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 59.69 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Two pin crystal, small symbol"
+			(at 59.69 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "e86e4d29-1c04-4d2b-9f61-08ad9f60c4d6")
+		)
+		(pin "1"
+			(uuid "41d13094-12dc-47f0-a22e-0e0ae058bc38")
+		)
+		(instances
+			(project ""
+				(path "/b2a1ae43-c619-4a49-bbec-49577e26f023"
+					(reference "G10")
 					(unit 1)
 				)
 			)
@@ -12886,74 +12895,6 @@
 			(project ""
 				(path "/b2a1ae43-c619-4a49-bbec-49577e26f023"
 					(reference "Q2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 48.26 53.34 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ff625145-dd8b-4b42-87e0-ed9ababb880c")
-		(property "Reference" "R8"
-			(at 48.26 46.99 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "R"
-			(at 48.26 49.53 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 48.26 51.562 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 48.26 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 48.26 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f285fa8f-6608-4ac4-a50e-e7d746874887")
-		)
-		(pin "2"
-			(uuid "9c2ebc79-781b-447e-b2b0-68246a59959f")
-		)
-		(instances
-			(project "elm2"
-				(path "/b2a1ae43-c619-4a49-bbec-49577e26f023"
-					(reference "R8")
 					(unit 1)
 				)
 			)
