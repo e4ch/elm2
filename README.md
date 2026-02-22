@@ -1,6 +1,7 @@
 # ELM2
 Reverse engineering the analog telephone PTT Tritel ELM2
 
+Note: This is work in progress.
 
 License
 -------
