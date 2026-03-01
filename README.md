@@ -15,11 +15,13 @@ I always assumed that the RJ9 connector to the handset with the four cables goes
 - pcb2_lores.psd is a combined Photoshop 7 Elements file of both of the above merged (two layers) where you can adjust the opacity to view both the connections and components (unfortunately with slightly reduced resolution because GitHub only allows 25MB files max.)
 - schema_elm2_pcb2_sketch.gif is a photo of the manual drawn connections based on these images - first draft of the schematic for PCB2
 - **Schematic2.pdf** is the finished schema of the board in the headset
+
 The schema of the second board is now finished. It is based around the IC TEA1061. The connection to the base is as follows:
 - RJ9 pin 1 - white  - J31 pin 6: VLINE
 - RJ9 pin 2 - blue   - J31 pin 5: GND
 - RJ9 pin 3 - green  - J31 pin 4: MUTE
 - RJ9 pin 4 - violet - J31 pin 3: RX
+
 The VLINE / GND transport supply voltage to this circuit. RX is voice data for the speaker and goes directly to the DTMF input of the IC. MUTE is used to disable speaker output, maybe during ringing or something.
 
 The interesting part is how microphone sound is transferred back, as there is no separate line for this. The LN output of the IC (pin 1) is the collector of an NPN transistor in the IC that drives it to SLPE (pin 18) according to the block diagram of the IC. With R34, only 43Ω, this modulates VLINE. So VLINE is also used for voice feedback.
