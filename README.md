@@ -26,7 +26,7 @@ The VLINE / GND transport supply voltage to this circuit. RX is voice data for t
 
 The interesting part is how microphone sound is transferred back, as there is no separate line for this. The LN output of the IC (pin 1) is the collector of an NPN transistor in the IC that drives it to SLPE (pin 18) according to the block diagram of the IC. With R34, only 43Ω, this modulates VLINE. So VLINE is also used for voice feedback.
 
-The Zener diode V31 does not get and DC voltage fed through any resistor, so this is purely for limiting the voltage that goes to the speaker.
+The Zener diode V31 does not get any DC voltage fed through any resistor, so this is purely for limiting the voltage that goes to the speaker.
 
 The circuitry R31, C31, R32, C32, C41, R33, R35, C34, R36 is purely feedback loop and is to limit the output of the microphone voice to the speaker.
 
