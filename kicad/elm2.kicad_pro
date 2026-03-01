@@ -613,6 +613,14 @@
     [
       "b2a1ae43-c619-4a49-bbec-49577e26f023",
       "Root"
+    ],
+    [
+      "723fd76c-ac2b-49bf-999a-ccdbe4eb4467",
+      "Main Board"
+    ],
+    [
+      "3dcfeafc-77a6-41ff-bfc6-4de98a0a47b4",
+      "Headset Board"
     ]
   ],
   "text_variables": {}
